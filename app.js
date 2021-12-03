@@ -5,7 +5,8 @@ let Personne = function (name, firstName, age, job) {
     this.job = job;
 
     this.getNameFirstNameAge = function () {
-        return this.name + " " + this.firstName + " " + this.age + " " + this.job;
+        return "Je m'appele" + " " + this.name + " " + this.firstName + " " + "j\'ai" + " " +
+            this.age + " " + "ans" + " " + "et mon job est" + " " + this.job;
     }
 
     this.changeElement = function (newName, newAge) {
